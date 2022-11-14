@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script> -->
+    <script type="text/javascript" src="static/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}"/>
+</head>
+<body>
+    <div class='top'></div>
+    <div class='text'>
+        <h1>WELCOME</h1>
+    </div>
+    
+    <div class="links">
+        <a href="{{ url_for('square') }}">Square Root</a>
+        <a href="{{ url_for('redirect_triangle') }}">Hypotenuse Triangle</a>
+        <a href="{{ url_for('redirect_convert') }}">Convert Score</a>
+    </div>
+    <div class="made">
+        Made with <span style="color: #e25555;">&#9829;</span> by Nathan
+    </div>
+</body>
+</html>

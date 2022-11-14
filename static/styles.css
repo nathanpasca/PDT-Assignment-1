@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+	background: #222;
+	padding: 0;
+	margin: 0;
+  overflow: hidden;
+}
+
+.top {
+	position: relative;
+	height: 10px;
+	background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
+}
+
+.text h1 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 4vw;
+  font-weight: 300;
+	text-transform: uppercase;
+}
+
+.text {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.links {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    background-color: gray;
+  }
+
+
+input[type=number] {
+    padding: 15px 1px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: 1.4rem;
+    text-align: center;
+}
+  
+input[type=number]:focus {
+    border: 3px solid #555;
+}
+
+.text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.text1 h1 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 3vw;
+  font-weight: 300;
+	text-transform: uppercase;
+}
+
+input[type=button] {
+  background-color: black;
+  border: none;
+  color: white;
+  /* padding: 14px 32px; */
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input[type=button]:hover {
+  background-color: gray;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#result {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#message {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.made {
+  color: white;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  left: 45%;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
